@@ -35,7 +35,6 @@ class _ChatScreenState extends State<ChatScreen> {
   }
 
   void _simulateAIResponse() async {
-    // Wait for 1-2 seconds to simulate "thinking"
     await Future.delayed(const Duration(milliseconds: 1500));
 
     if (!mounted) return;
@@ -52,7 +51,6 @@ class _ChatScreenState extends State<ChatScreen> {
   }
 
   void _scrollToBottom() {
-    // Small delay to ensure the ListView has updated before scrolling
     Future.delayed(const Duration(milliseconds: 100), () {
       if (_scrollController.hasClients) {
         _scrollController.animateTo(
