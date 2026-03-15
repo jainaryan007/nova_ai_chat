@@ -9,7 +9,7 @@ To be honest, I chose the AI chat interface because I’ve always been fascinate
 I decided to build a chat interface because it gave me the chance to try creating something similar on my own and understand how such experiences are built from the ground up. I wanted to see how a user can send a message, how the system responds, and how the whole conversation flow comes together to feel natural. For me, the main goal wasn’t just completing the project, but learning through the process.
 
 ### 2. What architecture / state management did you use and why?
-For the architecture and state management, I deliberately chose to keep things simple by using Flutter's native StatefulWidget and setState. Since this challenge was focused on building a clean UI prototype with mock data rather than a complex backend, I didn't want to over-engineer it with heavy state management libraries like Provider or Bloc.
+For the architecture and state management, I deliberately chose to keep things simple by using Flutter's native StatefulWidget and setState. Since this challenge was focused on building a clean UI prototype with mock data rather than a complex backend, I didn't want to over-engineer it with heavy state management libraries.
 
 My main goal was to nail the UX like to perfectly time the indicator and ensuring the auto-scroll felt smooth. setState was the perfect, lightweight tool to handle these localized state changes. It allowed me to focus entirely on the user experience and keep the code structure extremely clean and readable.
 
