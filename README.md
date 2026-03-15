@@ -1,5 +1,8 @@
 # nova_ai_chatbot application
 
+## Demo Video
+https://github.com/user-attachments/assets/eec83f3d-7bbe-4548-94e7-fd80a66a9751
+
 ### 1. Why did you choose this challenge?
 To be honest, I chose the AI chat interface because I’ve always been fascinated by how AI chatbots work. Whenever I use tools like ChatGPT, I often find myself wondering how these systems are able to respond so naturally and carry on conversations with people. That curiosity made me want to explore what goes on behind the scenes.
 
